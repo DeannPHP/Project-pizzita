@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Pizze il Napolitano</title>
+    <meta name="description" content="Descubrí las pizzas más ricas de San Martin que esta en la Provincia de Buenos Aires. Masa artesanal, ingredientes frescos y sabores únicos que conquistarán tu paladar. ¡Pedí ya y disfrutá en casa!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <div id="logo">
+                <img src="img/pizza.svg" alt="logo de la pizzeria">
+                <img src="img/text.svg" class="logo-text" alt="Pizzeria Pizze il Napolitano">
+            </div>
+            <nav>
+                <ul> 
+                      <!-- nav>ul>li*4>a  -->
+                    <li> <a href="#">HOME</a></li>
+                    <li> <a href="nosotros.html">NOSOTROS</a></li>
+                    <li> <a href="sucursales.html">SUCURSALES & DELIVERY</a></li>
+                    <li> <a href="contacto.html">CONTACTO</a></li> 
+                </ul>    
+            </nav>    
+        </div>       
+    </header>
+ <div class="main-content">
+        <!-- https://animate.style/ -->
+        <h2 class="animate_animated animate_backInLeft">NUESTRAS PIZZAS</h2>
+        <div id="cart">
+            <!-- https://fontawesome.com/search?ic=free -->
+            <i class="fa badge" id="badge" value="0"><i class="fa-solid fa-cart-shopping fa-lg"></i></i>
+        </div>  
+        <ul class="gallery">
+            <li>
+                <div class="box">
+                    <figure>
+                        <img src="img/Pizzita1.jpg" alt="fugazzeta">   
+                        <figcaption>
+                            <h3>fugazzeta</h3>
+                            <p>$12400</p>
+                            <time>23/05/2024</time>
+                        </figcaption>     
+                    </figure>        
+                    <button class="button" value="1"data-price="12400">
+                         Añadir al carrito <i class="fa-solid fa-cart-shopping"> </i> 
+                    </button>
+                </div>    
+            </li> 
+            <li>
+                <div class="box">
+                    <figure>
+                        <img src="img/pizzita2.jpg" alt="Pizza 4 Quesos" class="img-pizzas" />
+                        <figcaption>
+                            <h3>Pizza Cuatro Quesos</h3>
+                            <p>$ 150000000</p>
+                            <time>23/05/2024</time>
+                        </figcaption>
+                    </figure>
+                    <button class="button" value="2"data-price="150000000">
+                    Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <figure>
+                        <img src="img/pizzita3.jpg" alt="Pizza de albahaca" class="img-pizzas" />
+                        <figcaption>
+                            <h3>Pizza de albahaca</h3>
+                            <p>$ 10010000</p>
+                            <time>23/05/2024</time>
+                        </figcaption>
+                    </figure>
+                    <button class="button" value="3"data-price="10010000">
+                    Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </li>  
+            <li>
+                <div class="box">
+                    <figure>
+                        <img src="img/pizzita4.jpg" alt="Pizza de muzzarella" class="img-pizzas" />
+                        <figcaption>
+                            <h3>Pizza de muzzarella</h3>
+                            <p>$ 87000</p>
+                            <time>23/05/2024</time>
+                        </figcaption>
+                    </figure>
+                    <button class="button" value="4"data-price="87000">
+                    Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <figure>
+                        <img src="img/pizzita5.jpg" alt="Pizza napolitana" class="img-pizzas" />
+                        <figcaption>
+                            <h3>Pizza napolitana</h3>
+                            <p>$ 65000</p>
+                            <time>23/05/2024</time>
+                        </figcaption>
+                    </figure>
+                    <button class="button" value="5"data-price="65000">
+                    Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <figure>
+                        <img src="img/pizzita6.jpg" alt="Pizza de rúcula y jamón crido" class="img-pizzas" />
+                        <figcaption>
+                            <h3>Pizza de rúcula y jamón crudo</h3>
+                            <p>$ 43500</p>
+                            <time>23/05/2024</time>
+                        </figcaption>
+                    </figure>
+                    <button class="button" value="6"data-price="435000">
+                    Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </li> 
+    </ul>
+  </div>
+  <footer>
+   <div class="footer-content">
+   <div class="footer-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Sucursales & Delivery</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Política de Privacidad</a></li>
+        </ul>
+  </div>
+  <!-- Redes sociales -->
+      <div class="footer-social" id="social">
+        <a href="https://www.facebook.com/user"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/user"></a><i class="fab fa-twitter"></i></a>
+        <a href="https://www.TikToker.com/user"></a><i class="fab fa-instagram"></i></a>
+      </div>
+           <div class="footer-copyright">
+       <p> &copy; 
+       <script> 
+       let currentYear= new Date().getFullYear();
+       document.write(currentYear);
+       </script> Sitio web Patrocinado Por El TikToker @DeannOficial</p>
+       </div>
+  </footer>
+<script>
+
+
+const countButtons=document.querySelectorAll("button").length;
+let products=[];
+let totalPrice = 0;
+
+
+for(let i=0;i<countButtons;i++){
+document.querySelectorAll("button")[i].addEventListener("click",showValue);
+}
+
+function showValue(){
+// Se hizo un click sobre el Button para comprar una Pizza//
+
+const price=parseFloat(this.getAttribute("data-price"));
+
+if (products.includes(this.value)){
+// Si el producto ya está en el arreglo, no tendria que seleccionar el mismo producto.
+return;
+}
+else{
+// Cambiar color a Rojo
+this.style.backgroundColor = "#e50c39";
+this.innerHTML=`Agregado <i class="fa-solid fa-cart-shopping"></i>`;
+products.push(this.value);
+
+console.log(products);
+
+totalPrice=totalPrice+price;
+
+console.log("Total : "+totalPrice);
+
+document.getElementById("badge").setAttribute("value",products.length)
+
+}
+}
+</script>						
+</body>
+</html>
