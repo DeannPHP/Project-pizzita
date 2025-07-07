@@ -33,10 +33,13 @@
             </nav>    
         </div>       
     </header>
- <div class="main-content">
+    <div class="main-content">
         <!-- https://animate.style/ -->
         <h2 class="animate_animated animate_backInLeft">NUESTRAS PIZZAS</h2>
         <div id="cart">
+            <div id="subtotal">
+                <p>Total: $<span id="total-amount">0</span></p>
+            </div>
             <!-- https://fontawesome.com/search?ic=free -->
             <i class="fa badge" id="badge" value="0"><i class="fa-solid fa-cart-shopping fa-lg"></i></i>
         </div>  
@@ -44,14 +47,14 @@
             <li>
                 <div class="box">
                     <figure>
-                        <img src="img/Pizzita1.jpg" alt="fugazzeta">   
+                        <img src="img/enhanced_fugazzeta_cleanup.png" alt="fugazzeta" class="img-pizzas">   
                         <figcaption>
                             <h3>fugazzeta</h3>
                             <p>$12400</p>
                             <time>23/05/2024</time>
                         </figcaption>     
                     </figure>        
-                    <button class="button" value="1"data-price="12400">
+                    <button class="button" value="1" data-price="12400">
                          Añadir al carrito <i class="fa-solid fa-cart-shopping"> </i> 
                     </button>
                 </div>    
@@ -59,14 +62,14 @@
             <li>
                 <div class="box">
                     <figure>
-                        <img src="img/pizzita2.jpg" alt="Pizza 4 Quesos" class="img-pizzas" />
+                        <img src="img/enhanced_pizza-4-quesos.png" alt="Pizza 4 Quesos" class="img-pizzas" />
                         <figcaption>
                             <h3>Pizza Cuatro Quesos</h3>
-                            <p>$ 150000000</p>
+                            <p>$ 15000</p>
                             <time>23/05/2024</time>
                         </figcaption>
                     </figure>
-                    <button class="button" value="2"data-price="150000000">
+                    <button class="button" value="2" data-price="15000">
                     Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
                     </button>
                 </div>
@@ -74,14 +77,14 @@
             <li>
                 <div class="box">
                     <figure>
-                        <img src="img/pizzita3.jpg" alt="Pizza de albahaca" class="img-pizzas" />
+                        <img src="img/enhanced_pizza-de-albahaca.png" alt="Pizza de albahaca" class="img-pizzas" />
                         <figcaption>
                             <h3>Pizza de albahaca</h3>
-                            <p>$ 10010000</p>
+                            <p>$ 17000</p>
                             <time>23/05/2024</time>
                         </figcaption>
                     </figure>
-                    <button class="button" value="3"data-price="10010000">
+                    <button class="button" value="3" data-price="17000">
                     Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
                     </button>
                 </div>
@@ -89,14 +92,14 @@
             <li>
                 <div class="box">
                     <figure>
-                        <img src="img/pizzita4.jpg" alt="Pizza de muzzarella" class="img-pizzas" />
+                        <img src="img/enhanced_pizza-muzzarella.png" alt="Pizza de muzzarella" class="img-pizzas" />
                         <figcaption>
                             <h3>Pizza de muzzarella</h3>
-                            <p>$ 87000</p>
+                            <p>$ 17000</p>
                             <time>23/05/2024</time>
                         </figcaption>
                     </figure>
-                    <button class="button" value="4"data-price="87000">
+                    <button class="button" value="4" data-price="17000">
                     Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
                     </button>
                 </div>
@@ -104,14 +107,14 @@
             <li>
                 <div class="box">
                     <figure>
-                        <img src="img/pizzita5.jpg" alt="Pizza napolitana" class="img-pizzas" />
+                        <img src="img/enhanced_pizza-napolitana.png" alt="Pizza napolitana" class="img-pizzas" />
                         <figcaption>
                             <h3>Pizza napolitana</h3>
-                            <p>$ 65000</p>
+                            <p>$ 15000</p>
                             <time>23/05/2024</time>
                         </figcaption>
                     </figure>
-                    <button class="button" value="5"data-price="65000">
+                    <button class="button" value="5" data-price="15000">
                     Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
                     </button>
                 </div>
@@ -119,82 +122,87 @@
             <li>
                 <div class="box">
                     <figure>
-                        <img src="img/pizzita6.jpg" alt="Pizza de rúcula y jamón crido" class="img-pizzas" />
+                        <img src="img/enhanced_pizza-rucula-y-jamon-crudo.png" alt="Pizza de rúcula y jamón crido" class="img-pizzas" />
                         <figcaption>
                             <h3>Pizza de rúcula y jamón crudo</h3>
-                            <p>$ 43500</p>
+                            <p>$ 13500</p>
                             <time>23/05/2024</time>
                         </figcaption>
                     </figure>
-                    <button class="button" value="6"data-price="435000">
+                    <button class="button" value="6" data-price="13500">
                     Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
                     </button>
                 </div>
             </li> 
-    </ul>
-  </div>
-  <footer>
-   <div class="footer-content">
-   <div class="footer-nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Sucursales & Delivery</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Política de Privacidad</a></li>
         </ul>
-  </div>
-  <!-- Redes sociales -->
-      <div class="footer-social" id="social">
-        <a href="https://www.facebook.com/user"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://x.com/user"></a><i class="fab fa-twitter"></i></a>
-        <a href="https://www.TikToker.com/user"></a><i class="fab fa-instagram"></i></a>
-      </div>
-           <div class="footer-copyright">
-       <p> &copy; 
-       <script> 
-       let currentYear= new Date().getFullYear();
-       document.write(currentYear);
-       </script> Sitio web Patrocinado Por El TikToker @DeannOficial</p>
-       </div>
-  </footer>
-<script>
+    </div>
+    <footer>
+        <div class="footer-content">
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Sucursales & Delivery</a></li>
+                <li><a href="#">Contacto</a></li>
+                 <li><a href="login.html">LOGIN</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+            </ul>
+        </div>
+         <!-- Redes sociales -->
+            <div class="footer-social" id="social">
+                <a href="https://www.facebook.com/user"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/user"></a><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/user"></a><i class="fab fa-instagram"></i></a>
+            </div>
 
+            <div class="footer-copyright">
+                <p>&copy; 
+                <script>
+                let currentYear= new Date().getFullYear();
+                document.write(currentYear);
+                </script> Mi Sitio Web. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer> 
 
-const countButtons=document.querySelectorAll("button").length;
-let products=[];
-let totalPrice = 0;
+    <script>
+    const countButtons=document.querySelectorAll("button").length;
+    let products=[];
+    // cantidad de buttons que haya en la pagina agregados o por agregar
+    let totalPrice = 0;
 
+    for(let i=0;i<countButtons;i++){
+    document.querySelectorAll("button")[i].addEventListener("click",showValue);
+    }
 
-for(let i=0;i<countButtons;i++){
-document.querySelectorAll("button")[i].addEventListener("click",showValue);
-}
+    function showValue(){
+    // Se hizo un click sobre el Button para comprar una Pizza//
+    
+    const price=parseFloat(this.getAttribute("data-price"));
 
-function showValue(){
-// Se hizo un click sobre el Button para comprar una Pizza//
+    if(products.includes(this.value)){
+    // Si el producto ya está en el arreglo, no tendria que seleccionar el mismo producto.
+    return;
+    }
+    else{
+    // Cambiar color a Rojo
+    this.style.backgroundColor = "#e50c39";
+    this.innerHTML=`Agregado <i class="fa-solid fa-cart-shopping"></i>`;
+    products.push(this.value);  
 
-const price=parseFloat(this.getAttribute("data-price"));
+    console.log(products);
 
-if (products.includes(this.value)){
-// Si el producto ya está en el arreglo, no tendria que seleccionar el mismo producto.
-return;
-}
-else{
-// Cambiar color a Rojo
-this.style.backgroundColor = "#e50c39";
-this.innerHTML=`Agregado <i class="fa-solid fa-cart-shopping"></i>`;
-products.push(this.value);
+    totalPrice=totalPrice+price;
 
-console.log(products);
+    console.log('Total: $' + totalPrice);
 
-totalPrice=totalPrice+price;
-
-console.log("Total : "+totalPrice);
-
-document.getElementById("badge").setAttribute("value",products.length)
-
-}
-}
-</script>						
+    document.getElementById("badge").setAttribute("value",products.length);
+    // cambia el valor de la cantidad de productos en el carrito
+    document.getElementById("subtotal").style.display="block";
+    // Total Price tiene el valor total de la compra
+    document.getElementById("total-amount").textContent=totalPrice;
+    }
+    }  
+    </script>
 </body>
 </html>
