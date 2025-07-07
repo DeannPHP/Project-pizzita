@@ -20,19 +20,17 @@ Aplicación web que presenta un catalogo de pizzas con funcionalidad de carrito 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Pizzeria imagen 1](screen01.png)
 
-![Pizzeria imagen 1](screen_01.png)
+![Pizzeria imagen 2](screen02.png)
 
-![Pizzeria imagen 2](screen_02.png) 
-
-![Pizzeria imagen 3](screen_03.png) 
+![Pizzeria imagen 3](screen03.png)
 
 
 ## Autor
 
-- [@DeannPHP] https://www.youtube.com/@DeannMCC
+-[@DeannPHP] (https://github.com/DeannPHP)
 
 ## Licencia
 
-[MIT](https://choosealicense.com/licenses/mit/)
+-[MIT](https://choosealicense.com/licenses/mit/)
