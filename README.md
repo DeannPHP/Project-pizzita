@@ -32,7 +32,7 @@ Aplicación web que presenta un catalogo de pizzas con funcionalidad de carrito 
 
 ## Autor
 
--[@DeannPHP] (https://github.com/DeannPHP)
+-[@DeannPHP](https://github.com/DeannPHP)
 
 ## Licencia
 
